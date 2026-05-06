@@ -53,7 +53,7 @@ class _SlotMachineState
       );
       result =
           _symbos[_random.nextInt(
-            _symbos.leapp_icon.pngngth,
+            _symbos.length,
           )];
       onTick(result);
     }
