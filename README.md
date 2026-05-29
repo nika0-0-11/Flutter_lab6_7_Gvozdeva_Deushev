@@ -1,17 +1,85 @@
-# slot_machine
+# Слот-машина
 
-A new Flutter project.
+Простое Flutter - приложение - симулятор казино. Крути барабаны, собирай одинаковые символы и выигрывай монеты!
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Основная информация 
 
-A few resources to get you started if this is your first Flutter project:
+**ФИО:** Гвоздева В.А, Деушев Т.Т  
+**Группа:** ИСП-231  
+**Дата:** 30.05.2026
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Скриншоты
+
+|Главный экран|Победа|Монеты закончились|
+|:-----------:|:----:|:----------------:|
+|![Главный экран](/steps/main_screen.png)|![Победа](/steps/win.png)|![Монеты закончились](/steps/no_coins.png)|
+
+---
+
+## Как крутить 
+
+- Нажмите **КРУТИТЬ** чтобы запустить барабаны
+- Три одиновых символа - победа (+3 монеты)
+- Три семерки - джекпот (+10 монет)
+- Разные символы - проигрыш (-1 монета)
+- Начните заново кнопкой **Начать заново**  
+
+---
+
+## Запуск проекта
+
+**Требования:** Flutter 3.x, Dart 3.x
+
+### 1. Клонировать репозиторий
+
+```bash
+### Скопировать репозиторий
+git clone https://github.com/nika0-0-11/Flutter_lab6_7_Gvozdeva_Deushev
+
+### Перейти в папку проекта 
+cd Flutter_lab6_7_Gvozdeva_Deushev/
+```
+
+### 2. Установить зависимости
+
+```bash
+### Установить зависимости
+flutter pub get
+```
+
+### 3. Запуск
+
+```bash
+### Запуск в Chrome
+flutter run -d chrome
+```
+
+---
+
+## Установка на Android
+
+Скачайте готовый APK:
+[app-release.apk](/build/app/outputs/flutter-apk/app-release.apk)
+
+---
+
+## Технологии
+
+- **Flutter** 3.41.7
+- **Dart** 3.11.5
+- **Платформы:** Web, Android
+
+---
+
+## Что изучено 
+
+- `StatefulWidget` и управление состоянием через `setState()`
+- Работы с локальными изображениями через `Image.asset()`
+- Генерация случайных чисел через `dart:main`
+- Анимация через `async/await` и `AnimatedOpacity`
+- Создание иконки в **Krita** и подключение через `flutter_launcher-icons`
+- Собрка под Web и Android
